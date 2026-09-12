@@ -1,0 +1,40 @@
+/* Personalización del botón primario */
+.btn-primary {
+    background-color: #d35400;
+    border-color: #d35400;
+}
+
+
+/* Personalización de la barra de navegación */
+.navbar {
+    border-bottom: 4px solid #d35400;
+}
+
+
+/* Estilo propio para la sección Hero */
+.hero {
+    background-color: #f8e8d5;
+    padding: 50px 0;
+}
+
+
+/* Efecto al pasar el mouse sobre las tarjetas */
+.card {
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+
+/* Cambia también el color del botón de las tarjetas */
+.btn-outline-primary {
+    color: #d35400;
+    border-color: #d35400;
+}
+
+.btn-outline-primary:hover {
+    background-color: #d35400;
+    border-color: #d35400;
+}
